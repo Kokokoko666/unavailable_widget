@@ -1,11 +1,7 @@
-import os
+
 from PyQt5 import QtGui, uic
-import sys
 from PyQt5.QtCore import QSize, Qt, QSortFilterProxyModel
 from PyQt5.QtSql import QSqlDatabase, QSqlTableModel, QSqlQuery
-
-import psycopg2
-
 from PyQt5.QtWidgets import (
 	QApplication,
 	QLabel,
@@ -14,7 +10,6 @@ from PyQt5.QtWidgets import (
 	QWidget,
 	QMessageBox
 )
-
 
 import os.path
 import sys
