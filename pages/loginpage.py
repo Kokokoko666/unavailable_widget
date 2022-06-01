@@ -1,7 +1,5 @@
 import os
 from PyQt5 import QtGui, uic
-import pyodbc
-import psycopg2
 import ctypes
 
 import os.path
